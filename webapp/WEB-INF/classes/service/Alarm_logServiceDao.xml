@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--报警日志[alarm_log]SQL语句 -->
+<mapper namespace="Alarm_log">
+
+	<select id="listAlarm_logsPage" parameterType="Dto" resultType="Dto">
+		SELECT
+		
+		<include refid="dao.Alarm_logDao.column" />
+		FROM alarm_log
+		<where>
+		<if test="user_phone != null and user_phone != ''">
+				      AND user_phone like '%${user_phone}%'  <!-- 地址 --><!-- like和=，，，有区别，但对于手机号而言位数一样，所以可以使用 -->
+				</if>
+ 		</where>
+	</select>
+</mapper>

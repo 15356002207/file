@@ -1,0 +1,4 @@
+2018-07-31 16:04:38 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp1310540333-23] 没有获取到Key为[banktype]的数据字典。 
+2018-07-31 16:05:44 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp1310540333-25] 没有获取到Key为[banktype]的数据字典。 
+2018-07-31 16:23:25 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp1310540333-38] 没有获取到Key为[goods_status]的数据字典。 
+2018-07-31 16:23:25 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp1310540333-38] 没有获取到Key为[goods_reco]的数据字典。 

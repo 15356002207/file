@@ -1,0 +1,1950 @@
+2013-01-04 15:09:08 INFO [Class:o.e.j.s.Server->Thread:main] jetty-8.1.17.v20150415 
+2013-01-04 15:09:10 INFO [Class:o.e.j.s.h.ContextHandler$Context->Thread:main] Initializing Spring root WebApplicationContext 
+2013-01-04 15:09:24 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ●● SQL语句: SELECT id_, name_, key_, value_, group_, remark_ FROM base_params  
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● SQL参数:  
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140012, 登录请求等待信息, login_wait_msg_, 正在拼命加载中, 请稍候..., 1,  
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140013, 开发用户快捷登录账户, login_dev_account_, root, 1, 可设置为任意一个系统存在的账户。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140016, 系统缺省皮肤, skin_, blue, 1, 可选值：blue|gray|aos。优先级低于用户自己的皮肤配置。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140017, 登录页面的背景图片, login_back_img_, -1, 1, 登录页面的背景图片。可选的预设背景图片为：0.jpg、1.jpg、2.jpg。如果需要随机出现背景，则将其设置为-1。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140018, 是否显示验证码, is_show_vercode_, 1, 1, 是否在登录页面显示验证码及后台验证码验证。可选值：0(否) | 1(是)。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140019, 验证码长度, vercode_length_, 4, 1, null 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140020, 验证码待选字符集, vercode_characters_, abcdetx2345678, 1, null 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140022, Tab高亮颜色, tab_focus_color_, #0099FF, 1, 缺省的当前Tab卡片高亮提示颜色 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140023, 表格分页行数, page_size_, 50, 1, 缺省的分页大小。JSP页面的属性设置会覆盖这个配置。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140024, 表格列单元格内容对齐方式, grid_column_algin_, left, 1, 表格列对齐模式。有效值：left|center|right。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140025, 全局右键, prevent_rightclick_, false, 1, 阻止浏览器缺省鼠标右键事件。可选值：true|false。缺省值：true。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140026, 下拉选择框的缺省提示信息, combobox_emptytext_, 请选择..., 1, null 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140028, 表单校验消息提示方式, msgtarget_, qtip, 1, 可选值必须是下列值之一 (1)、qtip 当用户鼠标悬停在该域之上时显示包含了消息的迅速提示。(2)、title 显示消息以浏览器默认的title属性弹出。 (3)、under 在域下方添加一块包含了错误消息的div。(4)、side 添加一个错误图标在域的右边，鼠标悬停上面时弹出显示消息。 
+2013-01-04 15:09:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140029, 水平导航条按钮风格, nav_button_style_, tight, 1, 顶部水平导航条的按钮样式风格。tight：组合按钮；standalone：独立按钮。 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140030, 是否显示水平导航条, is_show_top_nav_, 1, 1, 是否显示水平导航条。可选值：1 | 0。 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140031, 页面刷新动画文件, page_load_gif_, wheel.gif, 1, 页面刷新动画文件。可选的预设动画文件：run.gif、wheel.gif。动画path：/static/image/gif/pageload。 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140032, 运行模式, run_mode_, 0, 1, 0：开发模式；1：生产模式；2：在线体验模式 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140033, 功能模块页面加载等待提示信息, page_load_msg_, 正在拼命加载中, 请稍候..., 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140034, 欢迎页标题, welcome_page_title_, 欢迎, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140035, 版权信息, copyright_, 2008-2017 , 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140036, 管理及会员会话Redis超时时间, user_login_timeout_, 86400, 2, 以秒(s)为单位。86400=24小时。 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140037, 首页浏览器标题, app_title_, 充电桩APP管理后台, 2, 充电桩APP管理后台/JEE应用基础平台 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140038, 加解密算法密钥, code_key_, HY&XC&MW, 1, 用户密码加解密算法密钥：密钥不能小于8位 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031120070602, 短信--URL地址, sms_url, app.cloopen.com, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031120340603, 短信--URL端口, sms_port, 8883, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031122050604, 短信--ACCOUNT SID, account_sid, 8aaf07085e0e36d0015e1c96c4a5056b, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031122340605, 短信--AUTH TOKEN, auth_token, 8bbd0c66ca8d4384996403c1313ea7b9, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031124000606, 短信--AppID, app_id, 8aaf07085e0e36d0015e1c96c74e0571, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032143580607, 微信支付--appid, appid, wx565aedb4be6a1a9e, 2, 在微信开发平台登记的app应用 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032144450608, 微信支付--appsecret, appsecret, dc58c5e5f10977f2a6d4061d65e80243, 2, appsecret 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032145190609, 微信支付--partner, partner, 1489795262, 2, 商户号 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032145520610, 微信支付--partnerkey, partnerkey, zjzctc1234zjzctc1234zjzctc123456, 2, 商户在微信平台设置的32位长度的api秘钥 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032146440611, 微信支付--notify_url, notify_url, http://116.62.215.62:80/cdz/api/wxNotify.jhtml, 2, 异步通知地址 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032148030612, 微信支付--createOrderURL, createOrderURL, https://api.mch.weixin.qq.com/pay/unifiedorder, 2, 微信支付网关，固定值，无需修改。 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041058260613, 支付宝支付--appid, alipay.appid, 2017091208690652, 2, 支付宝appid 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041100070614, 支付宝支付--private_key, alipay.private_key, MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCp8S6GxFVCj5rB
+6fZOLaGdCbucJxS/6h5IVhXmW2LKaq49D1LOyndmxHeCkxB6WS6RMAV4Wc4+t0Xm
+5hjaY7axlao7ruHFnVIwBf2+j7/TI5QhGSQM9JJ8RT7QOtIEINyaJC+8gz69OAyZ
+nHY6OPhpUOqabYwd50ImOd27w6JopMe5GlvkNQs1VMHBVKyKMPaIMsxk2ZVjOuPt
+6W76eD4siTFqqAUNaubg9C6k09sOi17vgPiNdOXK8/ikpQAVslT+dN/wK8l0xioI
+0fp5K/pPzaYDxc7kkLVrzG8974fKIHVLBboL/FlWonnFZ14JhUIpnjX7VnLgmEnH
+WMdaS9VJAgMBAAECggEAbTZe5SLlfAoXtYjqziELHIW1uMtwzUjivy/7kPenzFe0
+s+7WE6kQBM4704E5dLc9cva+fTKRlcJoPNQgorC0Jvn81bA0za+lstEW2dE9wK27
+s22Zum2ueghyLpWuhBKuUqzwtKBPwIB1sH5ZiF82XVAwBKBkDI+i9jf35IP8Kmy2
+/ldT6qMaJoFP3rC0Jj2U2wPuA2BJnsd8+l7zz3qMu2bjYGApQFnBsw5KvbQZXN81
+RkUMC01aODylFDBLXlwFYYjAO/eG3wxeK2yIYOKQ198zppT/rSyoFHur4dvgamdo
+omrcHhr/vnTbBN/cnWGzzAkQ0nFr2LBztieZDWSn1QKBgQDUn9rdeWix9vUJTDPm
+RcMJ26tClYvzS8BfOTInadsyaaC0AM0wm46Z0dtvO1GgiSYrz5CNAny7c5jYDGCM
++20vB7kICEcdAg35YnI6cuYVaVgTBx6M2SaktDITaOiDTUHRs/Oby3iTqy1VluSv
+pEyqeK4233C7SaUR6tGxFhpIqwKBgQDMnEau0aYtmpKqp1fvoveH2wSDoeJjN6HV
+lz4enNvrLQT68newWtFRNJyttk8fLlgsSjMb/nLe/bCLOLCY92u6l95snQD/4B2J
+03PaLUo95WhO4X3VL+ma1vsOZ0j6RkaBP64SdEhvx9C4ZAGhN1WBhnHkCggeXGh4
+7Q8NJJUB2wKBgE9/AP6jYQCA2/bA9fqXhKeP6QU5Ep1BakhwAw93ZYwAsCP81Lri
+vjtGmiuJWyiRfqMMtPfzwRz4yGGmpwavDpBx671UEvqGhSEDrL+rq9i/jT14APUa
+T3dvI/Xb2GsXHI/CH0fVmFxluMpyY0hEPqHSAxjjC6wKidwcFpCGOgeHAoGASfIs
+pV+FRDP5z4z8/dESzll8DyqBS8Q+S5gGTj/4Rs0VYLAiS2z2+vcdrLYXcDhqi08h
+m3tg/nAGzrnlMNMybtQWAYDYbKENa9Msqmv1ydrP0LozpMlVDq2lO/Zd7H1bW7is
+62R1DVjUeN9Dq4T49P+mx3hMqNRSuWlLKD/RTkMCgYBFUR5nImZAWNGzbxTcosJF
+5RkFWdMHu5V4VYKhHLRoCN6WxvclYcsZFIdFPq8HxfPZN6uLcr6J2rXxE5g2XWsX
+PRX+oJt0BjIm2kHDyCCpsGfA8ZWLiGgPS+QymRhzvfG32DRP/iPEVkQA1sj+RUxV
+OjPHOMlhA/iHFJ7eTPbMQg==, 2, app支付私钥 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041101230615, 支付宝支付--public_key, alipay.public_key, MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt//mSWspZur0xAGAbrf1zYNTdXOYcz8kFIqmAzBaew+ikX1NPBoKECNE9G9CjacbxZ3VW1jCCCz1fl1Z6y4VpRNBGWjEa/o8fLYxYG6XiJpwQ2vUAA79t+dZeLQ44c0zuj7ASPkRV2RDmdVPT5dvlUvByUFQnJVmFvUh3QzkJzpPkR2O4CTvNjzx0/1UZm1KqHn6jL68x965/pnU9VduX9AkkLXYGZR5iwS3HwDMfb3SpzD6vhQdvIAZN7LVkrONfgB/MFUknin0b6A61RhE9ryt6PoJv/0zx6vYPRalguNRgarkWmHqldH2dEoV2Y7vQJ5ics93oP46LfG2haewTQIDAQAB
+, 2, 支付宝公钥 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041104120616, 支付宝支付--notify_url, alipay.notify_url, http://116.62.215.62:80/cdz/api/aliNotify.jhtml, 2, 支付宝异步通知地址 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041106250617, 支付宝支付--gateway, alipay.gateway, https://openapi.alipay.com/gateway.do, 2, 支付宝支付网关，固定值，无需修改 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132149051044, 极光推送地址, pushUrl, https://api.jpush.cn/v3/push, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132151251045, 极光推送_masterSecret, sales_masterSecret, f74031f54a5cb7f55bd23020, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132152251046, 极光推送_appKey, sales_appKey, 67255cc309fe4c98dea799b8, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707011120231090, 优惠券的有效期, voucherValidity, 3, 2, 单位为：月 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021816011097, 银牌会员, silver, 0.1, 3, 充值满0.1元获得银牌会员 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021816461098, 金牌会员, gold, 0.5, 3, 充值满0.5元获得金牌会员 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021817171099, 白金会员, platinum, 5000, 3, 充值满5000元获得白金会员 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021822331103, 银牌会员折扣, silver_discount, 0.95, 3, 银牌会员0.95折优惠 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021823141104, 金牌会员折扣, gold_discount, 0.90, 3, 金牌会员0.90折优惠 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021823501105, 白金会员折扣, platinum_discount, 0.80, 3, 白金会员0.80折优惠 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161217271433, 查询附近范围, radius, 1800, 2, 1800千米内 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707202210141435, 充电预约时间, subscribe_date, 15, 2, 单位：分钟 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708060941182070, 极光推送是否为生产环境, apns_production, false, 2, false:开发环境，true:生产环境 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1709212158523221, 每度电费用, electricity, 0.01, 2, 充电每度电的电费。（注意：小数点后两位） 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710122231593239, 押金金额, deposit_amt, 0.02, 2, 平台会员押金金额 
+2013-01-04 15:09:26 DEBUG [Class:a.f.c.u.AOSPropertiesHandler->Thread:main] 开始装载属性资源参数文件... 
+2013-01-04 15:09:26 DEBUG [Class:a.f.c.u.AOSCfgHandler->Thread:main] 解析XML参数配置文件... 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ●● SQL语句: SELECT id_, name_, key_, code_, desc_, is_enable_, hotkey_, group_, sort_no_, remark_ FROM base_dic WHERE is_enable_ = ?  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● SQL参数: 1(String) 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120001, 性别, sex_, 1, 男, 1, , 1, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120002, 性别, sex_, 2, 女, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120003, 性别, sex_, 3, 未知, 1, null, 1, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120004, 组件边框颜色, cmp_border_color_, blue, #99BCE8, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120005, 组件边框颜色, cmp_border_color_, gray, #BCB0B0, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120006, 主页面south区域背景颜色, south_back_color_, blue, #DFE8F6, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120007, 主页面south区域背景颜色, south_back_color_, gray, #F0F0F0, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120008, 文本主体色调, main_text_color_, blue, #6699CC, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120009, 文本主体色调, main_text_color_, gray, #888888, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120010, 导航文字颜色, nav_text_color_, blue, #3399FF, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120011, 导航文字颜色, nav_text_color_, gray, #555555, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120012, 用户类型, user_type_, 1, 缺省, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120013, 用户状态, user_status_, 1, 正常, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120014, 用户状态, user_status_, 2, 锁定, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120015, 用户状态, user_status_, 3, 停用, 1, null, 1, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120016, 是否开关, is_, 1, 是, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120017, 是否开关, is_, 0, 否, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120018, 组织类型, org_type_, 1, 缺省, 1, , 1, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120020, 角色授权类型, role_grant_type_, 1, 业务办理权限, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120021, 角色授权类型, role_grant_type_, 2, 管理授权权限, 1, null, 1, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120022, 参数分组, params_group_, 1, 系统缺省参数, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120023, 参数分组, params_group_, 2, 产品业务参数, 1, null, 1, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120024, 字典分组, dic_group_, 1, 系统缺省字典, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120025, 字典分组, dic_group_, 2, 产品业务字典, 1, null, 1, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609082331410000, 界面皮肤, skin_, blue, 经典蓝, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609082333290001, 界面皮肤, skin_, gray, 魅力灰, 1, null, 1, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609112054530003, 角色类型, role_type_, 1, 缺省, 1, null, 1, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609281541100768, 图标类型, icon_type_, 1, 小图标, 1, null, 1, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609281541340769, 图标类型, icon_type_, 2, 大图标, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609281541530770, 图标类型, icon_type_, 3, 字体图标, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704162155430027, 广告状态, advert_status, 0, 启用, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704162155520028, 广告状态, advert_status, 1, 禁用, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272054410063, 优惠券类型, activity_type, 1, 充满送券, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272055080064, 优惠券类型, activity_type, 2, 充满升级会员, 1, null, 2, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272102460067, 奖励状态, activity_status, 1, 启用, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272103570068, 奖励状态, activity_status, 0, 禁用, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092218580467, 支付状态, pay_status, 0, 待支付, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092219130468, 支付状态, pay_status, 1, 已支付, 1, null, 2, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092219290469, 支付状态, pay_status, 2, 支付失败, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092219590470, 支付状态, pay_status, -1, 订单取消, 1, null, 2, 4,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705121721450136, 优惠券状态, voucher_direction, 0, 未使用, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705121721560137, 优惠券状态, voucher_direction, 1, 已使用, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705121722240138, 优惠券状态, voucher_direction, -1, 已失效, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705182205300516, 奖励规则符号, rule_symbol, >, 大于, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705182205520517, 奖励规则符号, rule_symbol, >=, 大于等于, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705182206100518, 奖励规则符号, rule_symbol, =, 等于, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132117511037, 推送对象, msg_type, 0, IOS+Android, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132118061038, 推送对象, msg_type, 1, IOS, 1, null, 2, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132118181039, 推送对象, msg_type, 2, Android, 1, null, 2, 3,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021819061100, 会员级别, grade_, silver, 银牌会员, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021819221101, 会员级别, grade_, gold, 金牌会员, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021819411102, 会员级别, grade_, platinum, 白金会员, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080914501281, 是否认证, is_cert, 0, 未认证, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080915241282, 是否认证, is_cert, 1, 已通过, 1, null, 2, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080915391283, 是否认证, is_cert, -1, 未通过, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080916001284, 是否认证, is_cert, 2, 已填写, 1, null, 2, 4, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080924361285, 会员级别, grade_, 0, 普通会员, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080937571286, 押金状态, deposit_status, 0, 未交, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080938081287, 押金状态, deposit_status, 1, 已交, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080938211288, 押金状态, deposit_status, -1, 已退, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081756331289, 押金申请状态, depositStatus, 0, 提交申请, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081757121290, 押金申请状态, depositStatus, 1, 审核通过, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081757261291, 押金申请状态, depositStatus, -1, 审核不通过, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081757411292, 押金申请状态, depositStatus, 2, 退款成功, 1, null, 2, 4, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082132421401, 预约充电状态, subscribeStatus, 0, 预约中, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082133001402, 预约充电状态, subscribeStatus, 1, 已充电, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082133191403, 预约充电状态, subscribeStatus, -1, 失效, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082133321404, 预约充电状态, subscribeStatus, 2, 取消, 1, null, 2, 4, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082158061405, 支付类型, pay_source, 0, 支付宝, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082158381406, 支付类型, pay_source, 1, 微信, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082158501407, 支付类型, pay_source, 2, 钱包, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082200321408, 消费类型, pay_type, 0, 充值, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082201021409, 消费类型, pay_type, 1, 支付充电, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082201261410, 消费类型, pay_type, 2, 押金, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082304301411, 计算类型, co_type, 0, 金额, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082304441412, 计算类型, co_type, 1, 时间, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082305031413, 计算类型, co_type, 2, 度数, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082305181414, 计算类型, co_type, 3, 充满, 1, null, 2, 4, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082306281415, 订单状态, order_status_, 0, 充电中, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082306451416, 订单状态, order_status_, 1, 充电结束, 1, null, 2, 2,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082307021417, 订单状态, order_status_, 2, 支付成功, 1, null, 2, 3,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082307231418, 订单状态, order_status_, -1, 取消, 1, null, 2, 4, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082309551419, 抵扣类型, deduction_type, 0, 折扣, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082310091420, 抵扣类型, deduction_type, 1, 优惠券, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082310231421, 抵扣类型, deduction_type, -1, 无, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161126301428, 充电桩状态, cp_status, 1, 可用, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161126481429, 充电桩状态, cp_status, 2, 占用, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161127081430, 充电桩状态, cp_status, 3, 故障, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161150001431, 充电桩型号, cp_type, 01, 慢充, 1, null, 2, 1,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161150111432, 充电桩型号, cp_type, 02, 快充, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708072215512479, 优惠券类型, activity_type, 3, 注册送优惠券, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708072216112480, 优惠券类型, activity_type, 4, 分享送优惠券, 1, null, 2, 4, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708072216462481, 优惠券类型, activity_type, 5, 完善资料送优惠券, 1, null, 2, 5, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1709192244511759, 订单状态, order_status_, -2, 充电确定中, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1709192245131768, 订单状态, order_status_, -3, 不同意充电, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112304053223, 日志类型, log_type, 0, 其他, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112304383224, 日志类型, log_type, SC①, SC①, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112304503225, 日志类型, log_type, CS①, CS①, 1, null, 2, 3,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112305253226, 日志类型, log_type, CS②, CS②, 1, null, 2, 4,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112305403227, 日志类型, log_type, SC②, SC②, 1, null, 2, 5,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112305593228, 日志类型, log_type, SC③, SC③, 1, null, 2, 6,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112306093229, 日志类型, log_type, CS③, CS③, 1, null, 2, 7,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112306333230, 日志类型, log_type, CS④, CS④, 1, null, 2, 8,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112306403231, 日志类型, log_type, SC④, SC④, 1, null, 2, 9,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112307093232, 日志类型, log_type, CS⑤, CS⑤, 1, null, 2, 10,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112307253233, 日志类型, log_type, CS⑥, CS⑥, 1, null, 2, 11,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308003234, 日志类型, log_type, CS⑦, CS⑦, 1, null, 2, 12,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308093235, 日志类型, log_type, SC⑦, SC⑦, 1, null, 2, 13,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308373236, 日志类型, log_type, SC⑧, SC⑧, 1, null, 2, 14,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308483237, 日志类型, log_type, CS⑧, CS⑧, 1, null, 2, 15,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710122237083240, 押金状态, deposit_status, 2, 申请退款中, 1, null, 2, 4,  
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710151909103257, 金币状态, gold_coins_status, 1, 正常, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710151909253258, 金币状态, gold_coins_status, -1, 已退, 1, null, 2, 2, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710151909423259, 金币状态, gold_coins_status, 2, 申请退款中, 1, null, 2, 3, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1711211636466849, 消费类型, pay_type, 3, 余额退款, 1, null, 2, 1, null 
+2013-01-04 15:09:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1711252007259841, 支付类型, pay_source, 3, 优惠券, 1, null, 2, 4,  
+2013-01-04 15:09:27 INFO [Class:o.e.j.s.h.ContextHandler$Context->Thread:main] Initializing Spring FrameworkServlet 'springDispatcherServlet' 
+2013-01-04 15:09:32 INFO [Class:o.e.j.s.AbstractConnector->Thread:main] Started SelectChannelConnector@0.0.0.0:9090 
+2013-01-04 15:09:52 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-22] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.initLogin，HttpModel： 〓入参: {
+  "router": "homeService.initLogin"
+}  
+2013-01-04 15:09:55 WARN [Class:o.e.j.s.ServletHandler->Thread:qtp507084503-22]  
+org.apache.jasper.JasperException: PWC6345: There is an error in invoking javac.  A full JDK (not just JRE) is required
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:92) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:378) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:119) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.Jsr199JavaCompiler.compile(Jsr199JavaCompiler.java:208) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:384) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:453) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:263) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.web.filter.HttpBackendFilter.doFilter(HttpBackendFilter.java:58) ~[classes/:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.web.filter.HttpFilter.doFilter(HttpFilter.java:50) ~[classes/:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) ~[spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.handle(Server.java:370) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_172]
+2013-01-04 15:09:55 WARN [Class:o.e.j.s.ServletHandler->Thread:qtp507084503-22] /cdz/http/do.jhtml 
+org.apache.jasper.JasperException: PWC6345: There is an error in invoking javac.  A full JDK (not just JRE) is required
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:92) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:378) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:119) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.Jsr199JavaCompiler.compile(Jsr199JavaCompiler.java:208) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:384) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:453) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378) ~[org.apache.jasper.glassfish-2.2.2.v201112011158.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:263) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812) ~[spring-webmvc-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.web.filter.HttpBackendFilter.doFilter(HttpBackendFilter.java:58) ~[classes/:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.web.filter.HttpFilter.doFilter(HttpFilter.java:50) ~[classes/:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) ~[spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-3.2.4.RELEASE.jar:3.2.4.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.handle(Server.java:370) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_172]
+2013-01-04 15:10:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT s_id, user_id, cp_id, start_date, end_date, complete_date, status, create_date, is_del FROM subscribe WHERE status = ? AND end_date < NOW() AND is_del = ?  
+2013-01-04 15:10:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 0(String), 0(String) 
+2013-01-04 15:10:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT co_id, user_id, cp_id, amounted, dateed, electricity, rest_date, total_amt, deduction_amt, real_amt, status_, co_type, co_num, degree, deduction_type, is_del, put_gun, create_date, puted_gun_date, put_gun_date, complete_date, oper_id, reason, discount FROM charging_orders WHERE is_del='0' AND status_ in('0','-2') AND round((UNIX_TIMESTAMP(SYSDATE())-UNIX_TIMESTAMP(update_date))/60) > ?  
+2013-01-04 15:10:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 5(Integer) 
+2013-01-04 15:11:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT co_id, user_id, cp_id, amounted, dateed, electricity, rest_date, total_amt, deduction_amt, real_amt, status_, co_type, co_num, degree, deduction_type, is_del, put_gun, create_date, puted_gun_date, put_gun_date, complete_date, oper_id, reason, discount FROM charging_orders WHERE is_del='0' AND status_ in('0','-2') AND round((UNIX_TIMESTAMP(SYSDATE())-UNIX_TIMESTAMP(update_date))/60) > ?  
+2013-01-04 15:11:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 5(Integer) 
+2013-01-04 15:11:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT s_id, user_id, cp_id, start_date, end_date, complete_date, status, create_date, is_del FROM subscribe WHERE status = ? AND end_date < NOW() AND is_del = ?  
+2013-01-04 15:11:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 0(String), 0(String) 
+2013-01-04 15:12:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT s_id, user_id, cp_id, start_date, end_date, complete_date, status, create_date, is_del FROM subscribe WHERE status = ? AND end_date < NOW() AND is_del = ?  
+2013-01-04 15:12:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 0(String), 0(String) 
+2013-01-04 15:12:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT co_id, user_id, cp_id, amounted, dateed, electricity, rest_date, total_amt, deduction_amt, real_amt, status_, co_type, co_num, degree, deduction_type, is_del, put_gun, create_date, puted_gun_date, put_gun_date, complete_date, oper_id, reason, discount FROM charging_orders WHERE is_del='0' AND status_ in('0','-2') AND round((UNIX_TIMESTAMP(SYSDATE())-UNIX_TIMESTAMP(update_date))/60) > ?  
+2013-01-04 15:12:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 5(Integer) 
+2013-01-04 15:13:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT co_id, user_id, cp_id, amounted, dateed, electricity, rest_date, total_amt, deduction_amt, real_amt, status_, co_type, co_num, degree, deduction_type, is_del, put_gun, create_date, puted_gun_date, put_gun_date, complete_date, oper_id, reason, discount FROM charging_orders WHERE is_del='0' AND status_ in('0','-2') AND round((UNIX_TIMESTAMP(SYSDATE())-UNIX_TIMESTAMP(update_date))/60) > ?  
+2013-01-04 15:13:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 5(Integer) 
+2013-01-04 15:13:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT s_id, user_id, cp_id, start_date, end_date, complete_date, status, create_date, is_del FROM subscribe WHERE status = ? AND end_date < NOW() AND is_del = ?  
+2013-01-04 15:13:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 0(String), 0(String) 
+2013-01-04 15:14:10 INFO [Class:o.e.j.s.Server->Thread:main] jetty-8.1.17.v20150415 
+2013-01-04 15:14:11 INFO [Class:o.e.j.s.h.ContextHandler$Context->Thread:main] Initializing Spring root WebApplicationContext 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ●● SQL语句: SELECT id_, name_, key_, value_, group_, remark_ FROM base_params  
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● SQL参数:  
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140012, 登录请求等待信息, login_wait_msg_, 正在拼命加载中, 请稍候..., 1,  
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140013, 开发用户快捷登录账户, login_dev_account_, root, 1, 可设置为任意一个系统存在的账户。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140016, 系统缺省皮肤, skin_, blue, 1, 可选值：blue|gray|aos。优先级低于用户自己的皮肤配置。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140017, 登录页面的背景图片, login_back_img_, -1, 1, 登录页面的背景图片。可选的预设背景图片为：0.jpg、1.jpg、2.jpg。如果需要随机出现背景，则将其设置为-1。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140018, 是否显示验证码, is_show_vercode_, 1, 1, 是否在登录页面显示验证码及后台验证码验证。可选值：0(否) | 1(是)。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140019, 验证码长度, vercode_length_, 4, 1, null 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140020, 验证码待选字符集, vercode_characters_, abcdetx2345678, 1, null 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140022, Tab高亮颜色, tab_focus_color_, #0099FF, 1, 缺省的当前Tab卡片高亮提示颜色 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140023, 表格分页行数, page_size_, 50, 1, 缺省的分页大小。JSP页面的属性设置会覆盖这个配置。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140024, 表格列单元格内容对齐方式, grid_column_algin_, left, 1, 表格列对齐模式。有效值：left|center|right。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140025, 全局右键, prevent_rightclick_, false, 1, 阻止浏览器缺省鼠标右键事件。可选值：true|false。缺省值：true。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140026, 下拉选择框的缺省提示信息, combobox_emptytext_, 请选择..., 1, null 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140028, 表单校验消息提示方式, msgtarget_, qtip, 1, 可选值必须是下列值之一 (1)、qtip 当用户鼠标悬停在该域之上时显示包含了消息的迅速提示。(2)、title 显示消息以浏览器默认的title属性弹出。 (3)、under 在域下方添加一块包含了错误消息的div。(4)、side 添加一个错误图标在域的右边，鼠标悬停上面时弹出显示消息。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140029, 水平导航条按钮风格, nav_button_style_, tight, 1, 顶部水平导航条的按钮样式风格。tight：组合按钮；standalone：独立按钮。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140030, 是否显示水平导航条, is_show_top_nav_, 1, 1, 是否显示水平导航条。可选值：1 | 0。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140031, 页面刷新动画文件, page_load_gif_, wheel.gif, 1, 页面刷新动画文件。可选的预设动画文件：run.gif、wheel.gif。动画path：/static/image/gif/pageload。 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140032, 运行模式, run_mode_, 0, 1, 0：开发模式；1：生产模式；2：在线体验模式 
+2013-01-04 15:14:25 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140033, 功能模块页面加载等待提示信息, page_load_msg_, 正在拼命加载中, 请稍候..., 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140034, 欢迎页标题, welcome_page_title_, 欢迎, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140035, 版权信息, copyright_, 2008-2017 , 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140036, 管理及会员会话Redis超时时间, user_login_timeout_, 86400, 2, 以秒(s)为单位。86400=24小时。 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140037, 首页浏览器标题, app_title_, 充电桩APP管理后台, 2, 充电桩APP管理后台/JEE应用基础平台 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848140038, 加解密算法密钥, code_key_, HY&XC&MW, 1, 用户密码加解密算法密钥：密钥不能小于8位 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031120070602, 短信--URL地址, sms_url, app.cloopen.com, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031120340603, 短信--URL端口, sms_port, 8883, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031122050604, 短信--ACCOUNT SID, account_sid, 8aaf07085e0e36d0015e1c96c4a5056b, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031122340605, 短信--AUTH TOKEN, auth_token, 8bbd0c66ca8d4384996403c1313ea7b9, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706031124000606, 短信--AppID, app_id, 8aaf07085e0e36d0015e1c96c74e0571, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032143580607, 微信支付--appid, appid, wx565aedb4be6a1a9e, 2, 在微信开发平台登记的app应用 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032144450608, 微信支付--appsecret, appsecret, dc58c5e5f10977f2a6d4061d65e80243, 2, appsecret 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032145190609, 微信支付--partner, partner, 1489795262, 2, 商户号 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032145520610, 微信支付--partnerkey, partnerkey, zjzctc1234zjzctc1234zjzctc123456, 2, 商户在微信平台设置的32位长度的api秘钥 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032146440611, 微信支付--notify_url, notify_url, http://116.62.215.62:80/cdz/api/wxNotify.jhtml, 2, 异步通知地址 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706032148030612, 微信支付--createOrderURL, createOrderURL, https://api.mch.weixin.qq.com/pay/unifiedorder, 2, 微信支付网关，固定值，无需修改。 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041058260613, 支付宝支付--appid, alipay.appid, 2017091208690652, 2, 支付宝appid 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041100070614, 支付宝支付--private_key, alipay.private_key, MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCp8S6GxFVCj5rB
+6fZOLaGdCbucJxS/6h5IVhXmW2LKaq49D1LOyndmxHeCkxB6WS6RMAV4Wc4+t0Xm
+5hjaY7axlao7ruHFnVIwBf2+j7/TI5QhGSQM9JJ8RT7QOtIEINyaJC+8gz69OAyZ
+nHY6OPhpUOqabYwd50ImOd27w6JopMe5GlvkNQs1VMHBVKyKMPaIMsxk2ZVjOuPt
+6W76eD4siTFqqAUNaubg9C6k09sOi17vgPiNdOXK8/ikpQAVslT+dN/wK8l0xioI
+0fp5K/pPzaYDxc7kkLVrzG8974fKIHVLBboL/FlWonnFZ14JhUIpnjX7VnLgmEnH
+WMdaS9VJAgMBAAECggEAbTZe5SLlfAoXtYjqziELHIW1uMtwzUjivy/7kPenzFe0
+s+7WE6kQBM4704E5dLc9cva+fTKRlcJoPNQgorC0Jvn81bA0za+lstEW2dE9wK27
+s22Zum2ueghyLpWuhBKuUqzwtKBPwIB1sH5ZiF82XVAwBKBkDI+i9jf35IP8Kmy2
+/ldT6qMaJoFP3rC0Jj2U2wPuA2BJnsd8+l7zz3qMu2bjYGApQFnBsw5KvbQZXN81
+RkUMC01aODylFDBLXlwFYYjAO/eG3wxeK2yIYOKQ198zppT/rSyoFHur4dvgamdo
+omrcHhr/vnTbBN/cnWGzzAkQ0nFr2LBztieZDWSn1QKBgQDUn9rdeWix9vUJTDPm
+RcMJ26tClYvzS8BfOTInadsyaaC0AM0wm46Z0dtvO1GgiSYrz5CNAny7c5jYDGCM
++20vB7kICEcdAg35YnI6cuYVaVgTBx6M2SaktDITaOiDTUHRs/Oby3iTqy1VluSv
+pEyqeK4233C7SaUR6tGxFhpIqwKBgQDMnEau0aYtmpKqp1fvoveH2wSDoeJjN6HV
+lz4enNvrLQT68newWtFRNJyttk8fLlgsSjMb/nLe/bCLOLCY92u6l95snQD/4B2J
+03PaLUo95WhO4X3VL+ma1vsOZ0j6RkaBP64SdEhvx9C4ZAGhN1WBhnHkCggeXGh4
+7Q8NJJUB2wKBgE9/AP6jYQCA2/bA9fqXhKeP6QU5Ep1BakhwAw93ZYwAsCP81Lri
+vjtGmiuJWyiRfqMMtPfzwRz4yGGmpwavDpBx671UEvqGhSEDrL+rq9i/jT14APUa
+T3dvI/Xb2GsXHI/CH0fVmFxluMpyY0hEPqHSAxjjC6wKidwcFpCGOgeHAoGASfIs
+pV+FRDP5z4z8/dESzll8DyqBS8Q+S5gGTj/4Rs0VYLAiS2z2+vcdrLYXcDhqi08h
+m3tg/nAGzrnlMNMybtQWAYDYbKENa9Msqmv1ydrP0LozpMlVDq2lO/Zd7H1bW7is
+62R1DVjUeN9Dq4T49P+mx3hMqNRSuWlLKD/RTkMCgYBFUR5nImZAWNGzbxTcosJF
+5RkFWdMHu5V4VYKhHLRoCN6WxvclYcsZFIdFPq8HxfPZN6uLcr6J2rXxE5g2XWsX
+PRX+oJt0BjIm2kHDyCCpsGfA8ZWLiGgPS+QymRhzvfG32DRP/iPEVkQA1sj+RUxV
+OjPHOMlhA/iHFJ7eTPbMQg==, 2, app支付私钥 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041101230615, 支付宝支付--public_key, alipay.public_key, MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt//mSWspZur0xAGAbrf1zYNTdXOYcz8kFIqmAzBaew+ikX1NPBoKECNE9G9CjacbxZ3VW1jCCCz1fl1Z6y4VpRNBGWjEa/o8fLYxYG6XiJpwQ2vUAA79t+dZeLQ44c0zuj7ASPkRV2RDmdVPT5dvlUvByUFQnJVmFvUh3QzkJzpPkR2O4CTvNjzx0/1UZm1KqHn6jL68x965/pnU9VduX9AkkLXYGZR5iwS3HwDMfb3SpzD6vhQdvIAZN7LVkrONfgB/MFUknin0b6A61RhE9ryt6PoJv/0zx6vYPRalguNRgarkWmHqldH2dEoV2Y7vQJ5ics93oP46LfG2haewTQIDAQAB
+, 2, 支付宝公钥 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041104120616, 支付宝支付--notify_url, alipay.notify_url, http://116.62.215.62:80/cdz/api/aliNotify.jhtml, 2, 支付宝异步通知地址 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706041106250617, 支付宝支付--gateway, alipay.gateway, https://openapi.alipay.com/gateway.do, 2, 支付宝支付网关，固定值，无需修改 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132149051044, 极光推送地址, pushUrl, https://api.jpush.cn/v3/push, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132151251045, 极光推送_masterSecret, sales_masterSecret, f74031f54a5cb7f55bd23020, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132152251046, 极光推送_appKey, sales_appKey, 67255cc309fe4c98dea799b8, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707011120231090, 优惠券的有效期, voucherValidity, 3, 2, 单位为：月 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021816011097, 银牌会员, silver, 0.1, 3, 充值满0.1元获得银牌会员 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021816461098, 金牌会员, gold, 0.5, 3, 充值满0.5元获得金牌会员 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021817171099, 白金会员, platinum, 5000, 3, 充值满5000元获得白金会员 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021822331103, 银牌会员折扣, silver_discount, 0.95, 3, 银牌会员0.95折优惠 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021823141104, 金牌会员折扣, gold_discount, 0.90, 3, 金牌会员0.90折优惠 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021823501105, 白金会员折扣, platinum_discount, 0.80, 3, 白金会员0.80折优惠 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161217271433, 查询附近范围, radius, 1800, 2, 1800千米内 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707202210141435, 充电预约时间, subscribe_date, 15, 2, 单位：分钟 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708060941182070, 极光推送是否为生产环境, apns_production, false, 2, false:开发环境，true:生产环境 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1709212158523221, 每度电费用, electricity, 0.01, 2, 充电每度电的电费。（注意：小数点后两位） 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710122231593239, 押金金额, deposit_amt, 0.02, 2, 平台会员押金金额 
+2013-01-04 15:14:26 DEBUG [Class:a.f.c.u.AOSPropertiesHandler->Thread:main] 开始装载属性资源参数文件... 
+2013-01-04 15:14:26 DEBUG [Class:a.f.c.u.AOSCfgHandler->Thread:main] 解析XML参数配置文件... 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ●● SQL语句: SELECT id_, name_, key_, code_, desc_, is_enable_, hotkey_, group_, sort_no_, remark_ FROM base_dic WHERE is_enable_ = ?  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● SQL参数: 1(String) 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120001, 性别, sex_, 1, 男, 1, , 1, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120002, 性别, sex_, 2, 女, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120003, 性别, sex_, 3, 未知, 1, null, 1, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120004, 组件边框颜色, cmp_border_color_, blue, #99BCE8, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120005, 组件边框颜色, cmp_border_color_, gray, #BCB0B0, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120006, 主页面south区域背景颜色, south_back_color_, blue, #DFE8F6, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120007, 主页面south区域背景颜色, south_back_color_, gray, #F0F0F0, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120008, 文本主体色调, main_text_color_, blue, #6699CC, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120009, 文本主体色调, main_text_color_, gray, #888888, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120010, 导航文字颜色, nav_text_color_, blue, #3399FF, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120011, 导航文字颜色, nav_text_color_, gray, #555555, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120012, 用户类型, user_type_, 1, 缺省, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120013, 用户状态, user_status_, 1, 正常, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120014, 用户状态, user_status_, 2, 锁定, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120015, 用户状态, user_status_, 3, 停用, 1, null, 1, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120016, 是否开关, is_, 1, 是, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120017, 是否开关, is_, 0, 否, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120018, 组织类型, org_type_, 1, 缺省, 1, , 1, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120020, 角色授权类型, role_grant_type_, 1, 业务办理权限, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120021, 角色授权类型, role_grant_type_, 2, 管理授权权限, 1, null, 1, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120022, 参数分组, params_group_, 1, 系统缺省参数, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120023, 参数分组, params_group_, 2, 产品业务参数, 1, null, 1, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120024, 字典分组, dic_group_, 1, 系统缺省字典, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1608211848120025, 字典分组, dic_group_, 2, 产品业务字典, 1, null, 1, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609082331410000, 界面皮肤, skin_, blue, 经典蓝, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609082333290001, 界面皮肤, skin_, gray, 魅力灰, 1, null, 1, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609112054530003, 角色类型, role_type_, 1, 缺省, 1, null, 1, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609281541100768, 图标类型, icon_type_, 1, 小图标, 1, null, 1, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609281541340769, 图标类型, icon_type_, 2, 大图标, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1609281541530770, 图标类型, icon_type_, 3, 字体图标, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704162155430027, 广告状态, advert_status, 0, 启用, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704162155520028, 广告状态, advert_status, 1, 禁用, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272054410063, 优惠券类型, activity_type, 1, 充满送券, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272055080064, 优惠券类型, activity_type, 2, 充满升级会员, 1, null, 2, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272102460067, 奖励状态, activity_status, 1, 启用, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1704272103570068, 奖励状态, activity_status, 0, 禁用, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092218580467, 支付状态, pay_status, 0, 待支付, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092219130468, 支付状态, pay_status, 1, 已支付, 1, null, 2, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092219290469, 支付状态, pay_status, 2, 支付失败, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705092219590470, 支付状态, pay_status, -1, 订单取消, 1, null, 2, 4,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705121721450136, 优惠券状态, voucher_direction, 0, 未使用, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705121721560137, 优惠券状态, voucher_direction, 1, 已使用, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705121722240138, 优惠券状态, voucher_direction, -1, 已失效, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705182205300516, 奖励规则符号, rule_symbol, >, 大于, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705182205520517, 奖励规则符号, rule_symbol, >=, 大于等于, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1705182206100518, 奖励规则符号, rule_symbol, =, 等于, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132117511037, 推送对象, msg_type, 0, IOS+Android, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132118061038, 推送对象, msg_type, 1, IOS, 1, null, 2, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1706132118181039, 推送对象, msg_type, 2, Android, 1, null, 2, 3,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021819061100, 会员级别, grade_, silver, 银牌会员, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021819221101, 会员级别, grade_, gold, 金牌会员, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707021819411102, 会员级别, grade_, platinum, 白金会员, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080914501281, 是否认证, is_cert, 0, 未认证, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080915241282, 是否认证, is_cert, 1, 已通过, 1, null, 2, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080915391283, 是否认证, is_cert, -1, 未通过, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080916001284, 是否认证, is_cert, 2, 已填写, 1, null, 2, 4, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080924361285, 会员级别, grade_, 0, 普通会员, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080937571286, 押金状态, deposit_status, 0, 未交, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080938081287, 押金状态, deposit_status, 1, 已交, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707080938211288, 押金状态, deposit_status, -1, 已退, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081756331289, 押金申请状态, depositStatus, 0, 提交申请, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081757121290, 押金申请状态, depositStatus, 1, 审核通过, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081757261291, 押金申请状态, depositStatus, -1, 审核不通过, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707081757411292, 押金申请状态, depositStatus, 2, 退款成功, 1, null, 2, 4, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082132421401, 预约充电状态, subscribeStatus, 0, 预约中, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082133001402, 预约充电状态, subscribeStatus, 1, 已充电, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082133191403, 预约充电状态, subscribeStatus, -1, 失效, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082133321404, 预约充电状态, subscribeStatus, 2, 取消, 1, null, 2, 4, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082158061405, 支付类型, pay_source, 0, 支付宝, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082158381406, 支付类型, pay_source, 1, 微信, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082158501407, 支付类型, pay_source, 2, 钱包, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082200321408, 消费类型, pay_type, 0, 充值, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082201021409, 消费类型, pay_type, 1, 支付充电, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082201261410, 消费类型, pay_type, 2, 押金, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082304301411, 计算类型, co_type, 0, 金额, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082304441412, 计算类型, co_type, 1, 时间, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082305031413, 计算类型, co_type, 2, 度数, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082305181414, 计算类型, co_type, 3, 充满, 1, null, 2, 4, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082306281415, 订单状态, order_status_, 0, 充电中, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082306451416, 订单状态, order_status_, 1, 充电结束, 1, null, 2, 2,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082307021417, 订单状态, order_status_, 2, 支付成功, 1, null, 2, 3,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082307231418, 订单状态, order_status_, -1, 取消, 1, null, 2, 4, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082309551419, 抵扣类型, deduction_type, 0, 折扣, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082310091420, 抵扣类型, deduction_type, 1, 优惠券, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707082310231421, 抵扣类型, deduction_type, -1, 无, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161126301428, 充电桩状态, cp_status, 1, 可用, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161126481429, 充电桩状态, cp_status, 2, 占用, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161127081430, 充电桩状态, cp_status, 3, 故障, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161150001431, 充电桩型号, cp_type, 01, 慢充, 1, null, 2, 1,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1707161150111432, 充电桩型号, cp_type, 02, 快充, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708072215512479, 优惠券类型, activity_type, 3, 注册送优惠券, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708072216112480, 优惠券类型, activity_type, 4, 分享送优惠券, 1, null, 2, 4, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1708072216462481, 优惠券类型, activity_type, 5, 完善资料送优惠券, 1, null, 2, 5, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1709192244511759, 订单状态, order_status_, -2, 充电确定中, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1709192245131768, 订单状态, order_status_, -3, 不同意充电, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112304053223, 日志类型, log_type, 0, 其他, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112304383224, 日志类型, log_type, SC①, SC①, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112304503225, 日志类型, log_type, CS①, CS①, 1, null, 2, 3,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112305253226, 日志类型, log_type, CS②, CS②, 1, null, 2, 4,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112305403227, 日志类型, log_type, SC②, SC②, 1, null, 2, 5,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112305593228, 日志类型, log_type, SC③, SC③, 1, null, 2, 6,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112306093229, 日志类型, log_type, CS③, CS③, 1, null, 2, 7,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112306333230, 日志类型, log_type, CS④, CS④, 1, null, 2, 8,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112306403231, 日志类型, log_type, SC④, SC④, 1, null, 2, 9,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112307093232, 日志类型, log_type, CS⑤, CS⑤, 1, null, 2, 10,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112307253233, 日志类型, log_type, CS⑥, CS⑥, 1, null, 2, 11,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308003234, 日志类型, log_type, CS⑦, CS⑦, 1, null, 2, 12,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308093235, 日志类型, log_type, SC⑦, SC⑦, 1, null, 2, 13,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308373236, 日志类型, log_type, SC⑧, SC⑧, 1, null, 2, 14,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710112308483237, 日志类型, log_type, CS⑧, CS⑧, 1, null, 2, 15,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710122237083240, 押金状态, deposit_status, 2, 申请退款中, 1, null, 2, 4,  
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710151909103257, 金币状态, gold_coins_status, 1, 正常, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710151909253258, 金币状态, gold_coins_status, -1, 已退, 1, null, 2, 2, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1710151909423259, 金币状态, gold_coins_status, 2, 申请退款中, 1, null, 2, 3, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1711211636466849, 消费类型, pay_type, 3, 余额退款, 1, null, 2, 1, null 
+2013-01-04 15:14:26 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:main] ● 1711252007259841, 支付类型, pay_source, 3, 优惠券, 1, null, 2, 4,  
+2013-01-04 15:14:27 INFO [Class:o.e.j.s.h.ContextHandler$Context->Thread:main] Initializing Spring FrameworkServlet 'springDispatcherServlet' 
+2013-01-04 15:14:30 INFO [Class:o.e.j.s.AbstractConnector->Thread:main] Started SelectChannelConnector@0.0.0.0:9090 
+2013-01-04 15:14:41 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-24] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.initLogin，HttpModel： 〓入参: {
+  "router": "homeService.initLogin"
+}  
+2013-01-04 15:15:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT s_id, user_id, cp_id, start_date, end_date, complete_date, status, create_date, is_del FROM subscribe WHERE status = ? AND end_date < NOW() AND is_del = ?  
+2013-01-04 15:15:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 0(String), 0(String) 
+2013-01-04 15:15:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT co_id, user_id, cp_id, amounted, dateed, electricity, rest_date, total_amt, deduction_amt, real_amt, status_, co_type, co_num, degree, deduction_type, is_del, put_gun, create_date, puted_gun_date, put_gun_date, complete_date, oper_id, reason, discount FROM charging_orders WHERE is_del='0' AND status_ in('0','-2') AND round((UNIX_TIMESTAMP(SYSDATE())-UNIX_TIMESTAMP(update_date))/60) > ?  
+2013-01-04 15:15:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 5(Integer) 
+2013-01-04 15:15:09 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ●● SQL语句: SELECT id_, account_, password_, name_, sex_, status_, type_, org_id_, email_, mobile_, idno_, skin_, biz_code_, address_, remark_, is_del_, create_time_, login_time_, create_by_ , is_huanxin FROM base_user WHERE account_ = ? AND is_del_ = ?  
+2013-01-04 15:15:09 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ● SQL参数: liu(String), 0(String) 
+2013-01-04 15:15:09 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ● 1807121036291032, liu, 436e82db0da42935f7145c09da50e0a5, , , 1, 1, , , , , blue, , , , 0, 2018-07-12 10:36:29.0, 2018-07-12 13:34:39.0, 1705231256260233, 0 
+2013-01-04 15:15:09 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ●● SQL语句: SELECT id_, cascade_id_, name_, hotkey_, parent_id_, is_leaf_, is_auto_expand_, icon_name_, type_, biz_code_, sort_no_, remark_, is_del_, create_time_, create_by_ FROM base_org WHERE id_ = ?  
+2013-01-04 15:15:09 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ● SQL参数: (String) 
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ●● SQL语句: SELECT id_, cascade_id_, name_, hotkey_, parent_id_, is_leaf_, is_auto_expand_, icon_name_, type_, biz_code_, sort_no_, remark_, is_del_, create_time_, create_by_ FROM base_org WHERE id_ = ?  
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ● SQL参数: (String) 
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ●● SQL语句: UPDATE base_user SET id_ = ?, login_time_ = ? WHERE id_ = ?  
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-23] ● SQL参数: 1807121036291032(String), 2013-01-04 15:15:10.0(Timestamp), 1807121036291032(String) 
+2013-01-04 15:15:10 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-23] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.login，HttpModel： 〓入参: {
+  "vercode_": "x4xt",
+  "app": "169",
+  "vercode_uuid_": "2855d317e16f44ee9f2c6b931459cb4c",
+  "router": "homeService.login",
+  "juid": "",
+  "password_": "123456",
+  "account_": "liu"
+} 〓出参: {
+  "juid": "5aeace1cb95345079871c4996e902d77",
+  "appcode": "1"
+}  
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-24] ●● SQL语句: SELECT DISTINCT base_module.id_, base_module.cascade_id_, base_module.parent_id_, base_module.name_, base_module.url_, base_module.icon_name_, base_module.is_leaf_, base_module.is_auto_expand_, base_module.is_enable_, base_module.vector_, base_module.sort_no_ FROM base_module, base_role_module WHERE base_module.id_ = base_role_module.module_id_ AND base_module.is_enable_ = '1' AND base_role_module.grant_type_ = ? AND base_role_module.role_id_ IN ( SELECT role_id_ FROM base_user_role WHERE user_id_ = ? ) AND LENGTH(base_module.cascade_id_) = 5 ORDER BY base_module.sort_no_ ASC  
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-24] ● SQL参数: 1(String), 1807121036291032(String) 
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-24] ● 1807011649280600, 0.002, 1608211848140001, liu3, liu_testController.init, null, 1, 0, 1, null, 10 
+2013-01-04 15:15:10 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-24] ● 1608211848140002, 0.001, 1608211848140001, 智慧安防管理后台, , folder22.png, 0, 1, 1, fa-cogs, 10 
+2013-01-04 15:15:10 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-24] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.initIndex，HttpModel： 〓入参: {
+  "router": "homeService.initIndex",
+  "juid": "5aeace1cb95345079871c4996e902d77"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+}  
+2013-01-04 15:15:14 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp507084503-24] 没有获取到Key为[banktype]的数据字典。 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ●● SQL语句: SELECT COUNT(1) AS count, IFNULL(SUM(CASE WHEN t.grade_='silver' THEN 1 ELSE 0 END),0) AS yp, IFNULL(SUM(CASE WHEN t.grade_='gold' THEN 1 ELSE 0 END),0) AS jp , IFNULL(SUM(CASE WHEN t.grade_='platinum' THEN 1 ELSE 0 END),0) AS bj , IFNULL(SUM(CASE WHEN t.grade_='0' THEN 1 ELSE 0 END),0) AS pt FROM base_user t WHERE t.type_='2' and is_del_='0'  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● SQL参数:  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● 19, 2, 3, 0, 14 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ●● SQL语句: SELECT COUNT(1) AS count, IFNULL(SUM(CASE WHEN t.cp_status='1' THEN 1 ELSE 0 END),0) AS keyong, IFNULL(SUM(CASE WHEN t.cp_status='2' THEN 1 ELSE 0 END),0) AS zhanyong , IFNULL(SUM(CASE WHEN t.cp_status='3' THEN 1 ELSE 0 END),0) AS guzhang FROM charging_pile t WHERE is_del='0'  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● SQL参数:  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● 11, 5, 1, 5 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0' AND t.create_date >= ? AND t.create_date < date_add(?, INTERVAL 1 day)  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● SQL参数: 2013-01-04(String), 2013-01-04(String) 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● 0, 0, 0 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0' AND t.create_date >= ? AND t.create_date < date_add(?, INTERVAL 1 day)  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● SQL参数: 2012-12-31(String), 2013-01-06(String) 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● 0, 0, 0 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0' AND t.create_date >= ? AND t.create_date < date_add(?, INTERVAL 1 day)  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● SQL参数: 2013-01-01(String), 2013-01-31(String) 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● 0, 0, 0 
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0'  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● SQL参数:  
+2013-01-04 15:15:15 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-22] ● 75, 74, 1 
+2013-01-04 15:15:15 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-22] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.initPortal，HttpModel： 〓入参: {
+  "router": "homeService.initPortal",
+  "juid": "5aeace1cb95345079871c4996e902d77"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+}  
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-27] ●● SQL语句: SELECT DISTINCT base_module.id_, base_module.cascade_id_, base_module.parent_id_, base_module.name_, base_module.url_, base_module.icon_name_, base_module.is_leaf_, base_module.is_auto_expand_, base_module.is_enable_, base_module.vector_, base_module.sort_no_ FROM base_module, base_role_module WHERE base_module.id_ = base_role_module.module_id_ AND base_module.is_enable_ = '1' AND base_role_module.grant_type_ = ? AND base_role_module.role_id_ IN ( SELECT role_id_ FROM base_user_role WHERE user_id_ = ? ) AND base_module.cascade_id_ like '0.002%' ORDER BY base_module.sort_no_ ASC  
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-27] ● SQL参数: 1(String), 1807121036291032(String) 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-27] ● 1807011649280600, 0.002, 1608211848140001, liu3, liu_testController.init, null, 1, 0, 1, null, 10 
+2013-01-04 15:15:17 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-27] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.getCardTree，HttpModel： 〓入参: {
+  "app": "169",
+  "router": "homeService.getCardTree",
+  "juid": "5aeace1cb95345079871c4996e902d77",
+  "cascade_id_": "0.002",
+  "_dc": "1357283717292"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+} 〓出参: [
+  {
+    "id": "1807011649280600",
+    "parentId": "1608211848140001",
+    "checked": null,
+    "expanded": false,
+    "href": null,
+    "hrefTarget": null,
+    "icon": null,
+    "iconCls": null,
+    "leaf": true,
+    "text": "liu3",
+    "qtip": null,
+    "a": "liu_testController.init",
+    "b": "0.002",
+    "c": null,
+    "children": null
+  }
+]  
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT DISTINCT base_module.id_, base_module.cascade_id_, base_module.parent_id_, base_module.name_, base_module.url_, base_module.icon_name_, base_module.is_leaf_, base_module.is_auto_expand_, base_module.is_enable_, base_module.vector_, base_module.sort_no_ FROM base_module, base_role_module WHERE base_module.id_ = base_role_module.module_id_ AND base_module.is_enable_ = '1' AND base_role_module.grant_type_ = ? AND base_role_module.role_id_ IN ( SELECT role_id_ FROM base_user_role WHERE user_id_ = ? ) AND base_module.cascade_id_ like '0.001%' ORDER BY base_module.sort_no_ ASC  
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数: 1(String), 1807121036291032(String) 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110940150730, 0.001.028, 1608211848140002, 系统管理, , folder1.png, 0, 1, 1, , 0 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110946010731, 0.001.028.001, 1706110940150730, 菜单管理, moduleService.init, icon154.png, 1, 0, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707252251371454, 0.001.039.001, 1707252250251453, 会员统计, tongJiController.init, , 1, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110952100736, 0.001.029.001, 1706110950230735, 基础配置管理, masterDataService.initParam, icon153.png, 1, 0, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062115511111, 0.001.034.001, 1707062114561110, 广告管理, advertController.init, book.png, 1, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062209131123, 0.001.038.002, 1707062159311121, 金银会员设置, masterDataService.initParam1, icon152.png, 1, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062138221113, 0.001.035.001, 1707062137331112, 投诉建议, commonCommentController.init, , 1, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110950230735, 0.001.029, 1608211848140002, 基础数据管理, , folder1.png, 0, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708072208492345, 0.001.011.023, 1701191616530026, 充值送券设置, activityController.init, , 1, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062145111120, 0.001.037.001, 1707062144421119, 智慧安防管理, chargingPileController.init, , 1, 1, 1, , 1 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707301644551622, 0.001.039.003, 1707252250251453, 订单数统计, tongJiController.order, , 1, 1, 1, , 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708072209152346, 0.001.011.024, 1701191616530026, 充值升级会员设置, activityController.init1, , 1, 1, 1, , 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706132113580895, 0.001.033.002, 1706132048000893, 系统消息管理, messagesController.init, , 1, 1, 1, , 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062159311121, 0.001.038, 1608211848140002, 会员管理, , folder1.png, 0, 1, 1, , 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062140581116, 0.001.036.002, 1707062139181114, 充电记录管理, chargingOrdersController.init, , 1, 1, 1, , 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110946570732, 0.001.028.002, 1706110940150730, 角色管理, roleService.init, own.png, 1, 0, 1, null, 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062200441122, 0.001.038.001, 1707062159311121, 会员管理, membersController.init, , 1, 0, 1, , 2 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110948380733, 0.001.028.003, 1706110940150730, 后台用户管理, userService.init, user6.png, 1, 0, 1, null, 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062141591117, 0.001.036.003, 1707062139181114, 支付流水, ordersPayController.init, , 1, 1, 1, , 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707082000141293, 0.001.038.004, 1707062159311121, 押金退款审核, depositListController.init1, , 1, 1, 1, , 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707302023311812, 0.001.039.004, 1707252250251453, 销售统计, tongJiController.sales, , 1, 0, 1, , 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110953500738, 0.001.029.003, 1706110950230735, 系统文章, articleController.init, , 1, 0, 1, , 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708072240002482, 0.001.011.025, 1701191616530026, 注册送优惠券设置, activityController.init2, , 1, 1, 1, , 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062139181114, 0.001.036, 1608211848140002, 充电订单管理, , folder1.png, 0, 1, 1, , 3 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707302110281936, 0.001.039.005, 1707252250251453, 优惠券统计, tongJiController.vouchers, , 1, 1, 1, , 4 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706110954490739, 0.001.029.004, 1706110950230735, 数据字典管理, masterDataService.initDictionary, icon152.png, 1, 0, 1, , 4 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062144421119, 0.001.037, 1608211848140002, 智慧安防管理, , folder1.png, 0, 1, 1, , 4 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708072240262483, 0.001.011.026, 1701191616530026, 分享送优惠券设置, activityController.init3, , 1, 1, 1, , 4 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707082000561294, 0.001.038.005, 1707062159311121, 押金退款, depositListController.init2, , 1, 1, 1, , 4 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707272353101504, 0.001.039.002, 1707252250251453, 广告数据统计, tongJiController.advert, , 1, 0, 1, , 5 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062143181118, 0.001.036.004, 1707062139181114, 预约充电记录, subscribeController.init, , 1, 1, 1, , 5 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062100111108, 0.001.028.004, 1706110940150730, 系统操作日志, commonLogsController.init, , 1, 1, 1, , 5 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708072240572484, 0.001.011.027, 1701191616530026, 完善资料送优惠券设置, activityController.init4, , 1, 1, 1, , 5 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062137331112, 0.001.035, 1608211848140002, 投诉建议管理, , folder1.png, 0, 1, 1, , 5 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062210231124, 0.001.038.003, 1707062159311121, 押金申请退款查询, depositListController.init, , 1, 0, 1, , 6 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1701191616530026, 0.001.011, 1608211848140002, 营销管理, , folder1.png, 0, 1, 1, , 7 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708082034302627, 0.001.038.006, 1707062159311121, 余额退款审核, depositListController.balance1, , 1, 1, 1, , 7 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708082034482628, 0.001.038.007, 1707062159311121, 余额退款, depositListController.balance2, , 1, 1, 1, , 8 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062114561110, 0.001.034, 1608211848140002, 系统广告管理, , folder1.png, 0, 1, 1, , 8 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1708082035172629, 0.001.038.008, 1707062159311121, 余额申请退款查询, depositListController.balance, , 1, 1, 1, , 9 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1706132048000893, 0.001.033, 1608211848140002, 消息管理, , folder1.png, 0, 1, 1, , 9 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1705121508460039, 0.001.011.022, 1701191616530026, 优惠券查询, voucherController.init, , 1, 1, 1, , 9 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1807091212550692, 0.001.037.002, 1707062144421119, a, null, null, 1, 0, 1, null, 10 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707062111191109, 0.001.029.005, 1706110950230735, 数据库备份, commonBackupController.init, , 1, 1, 1, , 10 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1707252250251453, 0.001.039, 1608211848140002, 统计, null, folder1.png, 0, 1, 1, null, 10 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1807121611361036, 0.001.037.003, 1707062144421119, 设备, deviceService.init, null, 1, 0, 1, null, 10 
+2013-01-04 15:15:17 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 1608211848140002, 0.001, 1608211848140001, 智慧安防管理后台, , folder22.png, 0, 1, 1, fa-cogs, 10 
+2013-01-04 15:15:17 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-26] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.getCardTree，HttpModel： 〓入参: {
+  "app": "169",
+  "router": "homeService.getCardTree",
+  "juid": "5aeace1cb95345079871c4996e902d77",
+  "cascade_id_": "0.001",
+  "_dc": "1357283717355"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+} 〓出参: [
+  {
+    "id": "1608211848140002",
+    "parentId": "1608211848140001",
+    "checked": null,
+    "expanded": true,
+    "href": null,
+    "hrefTarget": null,
+    "icon": "/cdz/static/icon/folder22.png",
+    "iconCls": null,
+    "leaf": false,
+    "text": "智慧安防管理后台",
+    "qtip": null,
+    "a": "",
+    "b": "0.001",
+    "c": null,
+    "children": [
+      {
+        "id": "1706110940150730",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "系统管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.028",
+        "c": null,
+        "children": [
+          {
+            "id": "1706110946010731",
+            "parentId": "1706110940150730",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/icon154.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "菜单管理",
+            "qtip": null,
+            "a": "moduleService.init",
+            "b": "0.001.028.001",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1706110946570732",
+            "parentId": "1706110940150730",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/own.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "角色管理",
+            "qtip": null,
+            "a": "roleService.init",
+            "b": "0.001.028.002",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1706110948380733",
+            "parentId": "1706110940150730",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/user6.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "后台用户管理",
+            "qtip": null,
+            "a": "userService.init",
+            "b": "0.001.028.003",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707062100111108",
+            "parentId": "1706110940150730",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "系统操作日志",
+            "qtip": null,
+            "a": "commonLogsController.init",
+            "b": "0.001.028.004",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1706110950230735",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "基础数据管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.029",
+        "c": null,
+        "children": [
+          {
+            "id": "1706110952100736",
+            "parentId": "1706110950230735",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/icon153.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "基础配置管理",
+            "qtip": null,
+            "a": "masterDataService.initParam",
+            "b": "0.001.029.001",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1706110953500738",
+            "parentId": "1706110950230735",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "系统文章",
+            "qtip": null,
+            "a": "articleController.init",
+            "b": "0.001.029.003",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1706110954490739",
+            "parentId": "1706110950230735",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/icon152.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "数据字典管理",
+            "qtip": null,
+            "a": "masterDataService.initDictionary",
+            "b": "0.001.029.004",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707062111191109",
+            "parentId": "1706110950230735",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "数据库备份",
+            "qtip": null,
+            "a": "commonBackupController.init",
+            "b": "0.001.029.005",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1707062159311121",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "会员管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.038",
+        "c": null,
+        "children": [
+          {
+            "id": "1707062209131123",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/icon152.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "金银会员设置",
+            "qtip": null,
+            "a": "masterDataService.initParam1",
+            "b": "0.001.038.002",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707062200441122",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "会员管理",
+            "qtip": null,
+            "a": "membersController.init",
+            "b": "0.001.038.001",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707082000141293",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "押金退款审核",
+            "qtip": null,
+            "a": "depositListController.init1",
+            "b": "0.001.038.004",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707082000561294",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "押金退款",
+            "qtip": null,
+            "a": "depositListController.init2",
+            "b": "0.001.038.005",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707062210231124",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "押金申请退款查询",
+            "qtip": null,
+            "a": "depositListController.init",
+            "b": "0.001.038.003",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708082034302627",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "余额退款审核",
+            "qtip": null,
+            "a": "depositListController.balance1",
+            "b": "0.001.038.006",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708082034482628",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "余额退款",
+            "qtip": null,
+            "a": "depositListController.balance2",
+            "b": "0.001.038.007",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708082035172629",
+            "parentId": "1707062159311121",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "余额申请退款查询",
+            "qtip": null,
+            "a": "depositListController.balance",
+            "b": "0.001.038.008",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1707062139181114",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "充电订单管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.036",
+        "c": null,
+        "children": [
+          {
+            "id": "1707062140581116",
+            "parentId": "1707062139181114",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "充电记录管理",
+            "qtip": null,
+            "a": "chargingOrdersController.init",
+            "b": "0.001.036.002",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707062141591117",
+            "parentId": "1707062139181114",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "支付流水",
+            "qtip": null,
+            "a": "ordersPayController.init",
+            "b": "0.001.036.003",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707062143181118",
+            "parentId": "1707062139181114",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "预约充电记录",
+            "qtip": null,
+            "a": "subscribeController.init",
+            "b": "0.001.036.004",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1707062144421119",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "智慧安防管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.037",
+        "c": null,
+        "children": [
+          {
+            "id": "1707062145111120",
+            "parentId": "1707062144421119",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "智慧安防管理",
+            "qtip": null,
+            "a": "chargingPileController.init",
+            "b": "0.001.037.001",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1807091212550692",
+            "parentId": "1707062144421119",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "a",
+            "qtip": null,
+            "a": "",
+            "b": "0.001.037.002",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1807121611361036",
+            "parentId": "1707062144421119",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "设备",
+            "qtip": null,
+            "a": "deviceService.init",
+            "b": "0.001.037.003",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1707062137331112",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "投诉建议管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.035",
+        "c": null,
+        "children": [
+          {
+            "id": "1707062138221113",
+            "parentId": "1707062137331112",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "投诉建议",
+            "qtip": null,
+            "a": "commonCommentController.init",
+            "b": "0.001.035.001",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1701191616530026",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "营销管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.011",
+        "c": null,
+        "children": [
+          {
+            "id": "1708072208492345",
+            "parentId": "1701191616530026",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "充值送券设置",
+            "qtip": null,
+            "a": "activityController.init",
+            "b": "0.001.011.023",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708072209152346",
+            "parentId": "1701191616530026",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "充值升级会员设置",
+            "qtip": null,
+            "a": "activityController.init1",
+            "b": "0.001.011.024",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708072240002482",
+            "parentId": "1701191616530026",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "注册送优惠券设置",
+            "qtip": null,
+            "a": "activityController.init2",
+            "b": "0.001.011.025",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708072240262483",
+            "parentId": "1701191616530026",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "分享送优惠券设置",
+            "qtip": null,
+            "a": "activityController.init3",
+            "b": "0.001.011.026",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1708072240572484",
+            "parentId": "1701191616530026",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "完善资料送优惠券设置",
+            "qtip": null,
+            "a": "activityController.init4",
+            "b": "0.001.011.027",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1705121508460039",
+            "parentId": "1701191616530026",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "优惠券查询",
+            "qtip": null,
+            "a": "voucherController.init",
+            "b": "0.001.011.022",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1707062114561110",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "系统广告管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.034",
+        "c": null,
+        "children": [
+          {
+            "id": "1707062115511111",
+            "parentId": "1707062114561110",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": "/cdz/static/icon/book.png",
+            "iconCls": null,
+            "leaf": true,
+            "text": "广告管理",
+            "qtip": null,
+            "a": "advertController.init",
+            "b": "0.001.034.001",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1706132048000893",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "消息管理",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.033",
+        "c": null,
+        "children": [
+          {
+            "id": "1706132113580895",
+            "parentId": "1706132048000893",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "系统消息管理",
+            "qtip": null,
+            "a": "messagesController.init",
+            "b": "0.001.033.002",
+            "c": null,
+            "children": null
+          }
+        ]
+      },
+      {
+        "id": "1707252250251453",
+        "parentId": "1608211848140002",
+        "checked": null,
+        "expanded": true,
+        "href": null,
+        "hrefTarget": null,
+        "icon": "/cdz/static/icon/folder1.png",
+        "iconCls": null,
+        "leaf": false,
+        "text": "统计",
+        "qtip": null,
+        "a": "",
+        "b": "0.001.039",
+        "c": null,
+        "children": [
+          {
+            "id": "1707252251371454",
+            "parentId": "1707252250251453",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "会员统计",
+            "qtip": null,
+            "a": "tongJiController.init",
+            "b": "0.001.039.001",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707301644551622",
+            "parentId": "1707252250251453",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "订单数统计",
+            "qtip": null,
+            "a": "tongJiController.order",
+            "b": "0.001.039.003",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707302023311812",
+            "parentId": "1707252250251453",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "销售统计",
+            "qtip": null,
+            "a": "tongJiController.sales",
+            "b": "0.001.039.004",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707302110281936",
+            "parentId": "1707252250251453",
+            "checked": null,
+            "expanded": true,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "优惠券统计",
+            "qtip": null,
+            "a": "tongJiController.vouchers",
+            "b": "0.001.039.005",
+            "c": null,
+            "children": null
+          },
+          {
+            "id": "1707272353101504",
+            "parentId": "1707252250251453",
+            "checked": null,
+            "expanded": false,
+            "href": null,
+            "hrefTarget": null,
+            "icon": null,
+            "iconCls": null,
+            "leaf": true,
+            "text": "广告数据统计",
+            "qtip": null,
+            "a": "tongJiController.advert",
+            "b": "0.001.039.002",
+            "c": null,
+            "children": null
+          }
+        ]
+      }
+    ]
+  }
+]  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT COUNT(1) AS count, IFNULL(SUM(CASE WHEN t.grade_='silver' THEN 1 ELSE 0 END),0) AS yp, IFNULL(SUM(CASE WHEN t.grade_='gold' THEN 1 ELSE 0 END),0) AS jp , IFNULL(SUM(CASE WHEN t.grade_='platinum' THEN 1 ELSE 0 END),0) AS bj , IFNULL(SUM(CASE WHEN t.grade_='0' THEN 1 ELSE 0 END),0) AS pt FROM base_user t WHERE t.type_='2' and is_del_='0'  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数:  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 19, 2, 3, 0, 14 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT COUNT(1) AS count, IFNULL(SUM(CASE WHEN t.cp_status='1' THEN 1 ELSE 0 END),0) AS keyong, IFNULL(SUM(CASE WHEN t.cp_status='2' THEN 1 ELSE 0 END),0) AS zhanyong , IFNULL(SUM(CASE WHEN t.cp_status='3' THEN 1 ELSE 0 END),0) AS guzhang FROM charging_pile t WHERE is_del='0'  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数:  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 11, 5, 1, 5 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0' AND t.create_date >= ? AND t.create_date < date_add(?, INTERVAL 1 day)  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数: 2013-01-04(String), 2013-01-04(String) 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 0, 0, 0 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0' AND t.create_date >= ? AND t.create_date < date_add(?, INTERVAL 1 day)  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数: 2012-12-31(String), 2013-01-06(String) 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 0, 0, 0 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0' AND t.create_date >= ? AND t.create_date < date_add(?, INTERVAL 1 day)  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数: 2013-01-01(String), 2013-01-31(String) 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 0, 0, 0 
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ●● SQL语句: SELECT IFNULL(SUM(CASE WHEN t.status_='2' or t.status_='1' THEN 1 ELSE 0 END),0) AS count , IFNULL(SUM(CASE WHEN t.status_='2' THEN 1 ELSE 0 END),0) AS pay , IFNULL(SUM(CASE WHEN t.status_='1' THEN 1 ELSE 0 END),0) AS nopay FROM charging_orders t WHERE is_del='0'  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● SQL参数:  
+2013-01-04 15:15:18 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-26] ● 75, 74, 1 
+2013-01-04 15:15:18 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-26] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：homeService.initPortal，HttpModel： 〓入参: {
+  "router": "homeService.initPortal",
+  "juid": "5aeace1cb95345079871c4996e902d77"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+}  
+2013-01-04 15:15:29 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-38] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：deviceService.init，HttpModel： 〓入参: {
+  "router": "deviceService.init",
+  "juid": "5aeace1cb95345079871c4996e902d77",
+  "aos_module_id_": "1807121611361036"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+}  
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ●● SQL语句: SELECT COUNT(0) FROM (SELECT 1 FROM device) AS aos_count_  
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● SQL参数:  
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● 5 
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ●● SQL语句: SELECT id_, status, arrange_withdraw, device_id, user_id, user_name, user_address, sub_center, cross_road, user_type, user_type2, host_type, video_linkage, head, head_phone, test_period, pay_date, guarantee_time, check_status, arrearage, shut_down, town, town_phone, police_station, network, police_phone, host_address, insatll_date, code42, withdraw_date, arrange_date, last_date, builders, police_unit, host_phone, prewithdraw_date, prearrange_date, group_, entry_clerk, inspection_staff, downtime, phone1, phone2, phone3, head_phone2, net_date, communication_line, users_id, users_name, users_identity, remarks, arrangeandwithdraw_time, network_setting_substation, network_setting_name, network_setting_type, network_setting_template, network_setting_remarks, network_setting_number, network_setting_users, alarm_type, communication_format, alarm_sound, host_alarm_sms, substation_number, shutdown_time, pause, breakdown, review_confirm, management_remarks FROM device limit 50 offset 0  
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● SQL参数:  
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● , 777, ss, ss, ss, ss, 按his和那个阜阳市及黄King真中心学校, ss, ss, ss, ss, ss, ss, , , , 2018-07-12 00:00:44.0, null, ss, ss, ss, ss, ss, ss, ss, ss, ss, 2018-07-25 00:00:55.0, , null, null, null, , , , 2018-07-17 13:55:11.0, null, , , , null, , , , , null, , , , , , , , , , , , , , , null, null, null, null, null, null, null, null, null 
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null 
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● 5, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null 
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● 711120240cc8495a8e6851e24e38c52e, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null 
+2013-01-04 15:15:33 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:qtp507084503-39] ● 7b7e425d2404437f9d3d45ecd8dfb175, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null 
+2013-01-04 15:15:33 INFO [Class:a.f.w.r.HttpRouterController->Thread:qtp507084503-39] ●●● ClientIP：127.0.0.1，URI：/cdz/http/do.jhtml，ROUTER：deviceService.listDevice，HttpModel： 〓入参: {
+  "app": "169",
+  "router": "deviceService.listDevice",
+  "_total": 5,
+  "juid": "5aeace1cb95345079871c4996e902d77",
+  "start": "0",
+  "limit": "50",
+  "page": "1",
+  "_dc": "1357283733281"
+} 〓当前用户: {
+  "account_": "liu",
+  "name_": ""
+} 〓出参: {
+  "_total": 5,
+  "_rows": [
+    {
+      "shut_down": "ss",
+      "head_phone2": "",
+      "builders": "",
+      "communication_line": "",
+      "town_phone": "ss",
+      "user_address": "按his和那个阜阳市及黄King真中心学校",
+      "phone2": "",
+      "phone3": "",
+      "guarantee_time": null,
+      "arrange_date": null,
+      "phone1": "",
+      "code42": "",
+      "user_type": "ss",
+      "alarm_type": "",
+      "users_id": "",
+      "host_address": "ss",
+      "alarm_sound": null,
+      "cross_road": "ss",
+      "device_id": "ss",
+      "town": "ss",
+      "id_": "",
+      "user_type2": "ss",
+      "insatll_date": "2018-07-25 00:00:55",
+      "arrearage": "ss",
+      "arrange_withdraw": "ss",
+      "sub_center": "ss",
+      "pause": null,
+      "withdraw_date": null,
+      "management_remarks": null,
+      "network_setting_number": "",
+      "user_id": "ss",
+      "users_name": "",
+      "test_period": "",
+      "network_setting_template": "",
+      "status": "777",
+      "network_setting_users": "",
+      "head_phone": "",
+      "pay_date": "2018-07-12 00:00:44",
+      "user_name": "ss",
+      "breakdown": null,
+      "arrangeandwithdraw_time": "",
+      "network_setting_substation": "",
+      "communication_format": null,
+      "substation_number": null,
+      "shutdown_time": null,
+      "host_type": "ss",
+      "last_date": null,
+      "network": "ss",
+      "head": "",
+      "network_setting_type": "",
+      "video_linkage": "ss",
+      "police_phone": "ss",
+      "net_date": null,
+      "host_alarm_sms": null,
+      "host_phone": "",
+      "prearrange_date": null,
+      "users_identity": "",
+      "police_station": "ss",
+      "entry_clerk": "",
+      "network_setting_name": "",
+      "check_status": "ss",
+      "police_unit": "",
+      "downtime": null,
+      "inspection_staff": "",
+      "network_setting_remarks": "",
+      "review_confirm": null,
+      "prewithdraw_date": "2018-07-17 13:55:11",
+      "group_": "",
+      "remarks": ""
+    },
+    {
+      "shut_down": null,
+      "head_phone2": null,
+      "builders": null,
+      "communication_line": null,
+      "town_phone": null,
+      "user_address": null,
+      "phone2": null,
+      "phone3": null,
+      "guarantee_time": null,
+      "arrange_date": null,
+      "phone1": null,
+      "code42": null,
+      "user_type": null,
+      "alarm_type": null,
+      "users_id": null,
+      "host_address": null,
+      "alarm_sound": null,
+      "cross_road": null,
+      "device_id": null,
+      "town": null,
+      "id_": "1",
+      "user_type2": null,
+      "insatll_date": null,
+      "arrearage": null,
+      "arrange_withdraw": null,
+      "sub_center": null,
+      "pause": null,
+      "withdraw_date": null,
+      "management_remarks": null,
+      "network_setting_number": null,
+      "user_id": null,
+      "users_name": null,
+      "test_period": null,
+      "network_setting_template": null,
+      "status": null,
+      "network_setting_users": null,
+      "head_phone": null,
+      "pay_date": null,
+      "user_name": null,
+      "breakdown": null,
+      "arrangeandwithdraw_time": null,
+      "network_setting_substation": null,
+      "communication_format": null,
+      "substation_number": null,
+      "shutdown_time": null,
+      "host_type": null,
+      "last_date": null,
+      "network": null,
+      "head": null,
+      "network_setting_type": null,
+      "video_linkage": null,
+      "police_phone": null,
+      "net_date": null,
+      "host_alarm_sms": null,
+      "host_phone": null,
+      "prearrange_date": null,
+      "users_identity": null,
+      "police_station": null,
+      "entry_clerk": null,
+      "network_setting_name": null,
+      "check_status": null,
+      "police_unit": null,
+      "downtime": null,
+      "inspection_staff": null,
+      "network_setting_remarks": null,
+      "review_confirm": null,
+      "prewithdraw_date": null,
+      "group_": null,
+      "remarks": null
+    },
+    {
+      "shut_down": null,
+      "head_phone2": null,
+      "builders": null,
+      "communication_line": null,
+      "town_phone": null,
+      "user_address": null,
+      "phone2": null,
+      "phone3": null,
+      "guarantee_time": null,
+      "arrange_date": null,
+      "phone1": null,
+      "code42": null,
+      "user_type": null,
+      "alarm_type": null,
+      "users_id": null,
+      "host_address": null,
+      "alarm_sound": null,
+      "cross_road": null,
+      "device_id": null,
+      "town": null,
+      "id_": "5",
+      "user_type2": null,
+      "insatll_date": null,
+      "arrearage": null,
+      "arrange_withdraw": null,
+      "sub_center": null,
+      "pause": null,
+      "withdraw_date": null,
+      "management_remarks": null,
+      "network_setting_number": null,
+      "user_id": null,
+      "users_name": null,
+      "test_period": null,
+      "network_setting_template": null,
+      "status": null,
+      "network_setting_users": null,
+      "head_phone": null,
+      "pay_date": null,
+      "user_name": null,
+      "breakdown": null,
+      "arrangeandwithdraw_time": null,
+      "network_setting_substation": null,
+      "communication_format": null,
+      "substation_number": null,
+      "shutdown_time": null,
+      "host_type": null,
+      "last_date": null,
+      "network": null,
+      "head": null,
+      "network_setting_type": null,
+      "video_linkage": null,
+      "police_phone": null,
+      "net_date": null,
+      "host_alarm_sms": null,
+      "host_phone": null,
+      "prearrange_date": null,
+      "users_identity": null,
+      "police_station": null,
+      "entry_clerk": null,
+      "network_setting_name": null,
+      "check_status": null,
+      "police_unit": null,
+      "downtime": null,
+      "inspection_staff": null,
+      "network_setting_remarks": null,
+      "review_confirm": null,
+      "prewithdraw_date": null,
+      "group_": null,
+      "remarks": null
+    },
+    {
+      "shut_down": null,
+      "head_phone2": null,
+      "builders": null,
+      "communication_line": null,
+      "town_phone": null,
+      "user_address": null,
+      "phone2": null,
+      "phone3": null,
+      "guarantee_time": null,
+      "arrange_date": null,
+      "phone1": null,
+      "code42": null,
+      "user_type": null,
+      "alarm_type": null,
+      "users_id": null,
+      "host_address": null,
+      "alarm_sound": null,
+      "cross_road": null,
+      "device_id": null,
+      "town": null,
+      "id_": "711120240cc8495a8e6851e24e38c52e",
+      "user_type2": null,
+      "insatll_date": null,
+      "arrearage": null,
+      "arrange_withdraw": null,
+      "sub_center": null,
+      "pause": null,
+      "withdraw_date": null,
+      "management_remarks": null,
+      "network_setting_number": null,
+      "user_id": null,
+      "users_name": null,
+      "test_period": null,
+      "network_setting_template": null,
+      "status": null,
+      "network_setting_users": null,
+      "head_phone": null,
+      "pay_date": null,
+      "user_name": null,
+      "breakdown": null,
+      "arrangeandwithdraw_time": null,
+      "network_setting_substation": null,
+      "communication_format": null,
+      "substation_number": null,
+      "shutdown_time": null,
+      "host_type": null,
+      "last_date": null,
+      "network": null,
+      "head": null,
+      "network_setting_type": null,
+      "video_linkage": null,
+      "police_phone": null,
+      "net_date": null,
+      "host_alarm_sms": null,
+      "host_phone": null,
+      "prearrange_date": null,
+      "users_identity": null,
+      "police_station": null,
+      "entry_clerk": null,
+      "network_setting_name": null,
+      "check_status": null,
+      "police_unit": null,
+      "downtime": null,
+      "inspection_staff": null,
+      "network_setting_remarks": null,
+      "review_confirm": null,
+      "prewithdraw_date": null,
+      "group_": null,
+      "remarks": null
+    },
+    {
+      "shut_down": null,
+      "head_phone2": null,
+      "builders": null,
+      "communication_line": null,
+      "town_phone": null,
+      "user_address": null,
+      "phone2": null,
+      "phone3": null,
+      "guarantee_time": null,
+      "arrange_date": null,
+      "phone1": null,
+      "code42": null,
+      "user_type": null,
+      "alarm_type": null,
+      "users_id": null,
+      "host_address": null,
+      "alarm_sound": null,
+      "cross_road": null,
+      "device_id": null,
+      "town": null,
+      "id_": "7b7e425d2404437f9d3d45ecd8dfb175",
+      "user_type2": null,
+      "insatll_date": null,
+      "arrearage": null,
+      "arrange_withdraw": null,
+      "sub_center": null,
+      "pause": null,
+      "withdraw_date": null,
+      "management_remarks": null,
+      "network_setting_number": null,
+      "user_id": null,
+      "users_name": null,
+      "test_period": null,
+      "network_setting_template": null,
+      "status": null,
+      "network_setting_users": null,
+      "head_phone": null,
+      "pay_date": null,
+      "user_name": null,
+      "breakdown": null,
+      "arrangeandwithdraw_time": null,
+      "network_setting_substation": null,
+      "communication_format": null,
+      "substation_number": null,
+      "shutdown_time": null,
+      "host_type": null,
+      "last_date": null,
+      "network": null,
+      "head": null,
+      "network_setting_type": null,
+      "video_linkage": null,
+      "police_phone": null,
+      "net_date": null,
+      "host_alarm_sms": null,
+      "host_phone": null,
+      "prearrange_date": null,
+      "users_identity": null,
+      "police_station": null,
+      "entry_clerk": null,
+      "network_setting_name": null,
+      "check_status": null,
+      "police_unit": null,
+      "downtime": null,
+      "inspection_staff": null,
+      "network_setting_remarks": null,
+      "review_confirm": null,
+      "prewithdraw_date": null,
+      "group_": null,
+      "remarks": null
+    }
+  ]
+}  
+2013-01-04 15:16:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT s_id, user_id, cp_id, start_date, end_date, complete_date, status, create_date, is_del FROM subscribe WHERE status = ? AND end_date < NOW() AND is_del = ?  
+2013-01-04 15:16:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 0(String), 0(String) 
+2013-01-04 15:16:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ●● SQL语句: SELECT co_id, user_id, cp_id, amounted, dateed, electricity, rest_date, total_amt, deduction_amt, real_amt, status_, co_type, co_num, degree, deduction_type, is_del, put_gun, create_date, puted_gun_date, put_gun_date, complete_date, oper_id, reason, discount FROM charging_orders WHERE is_del='0' AND status_ in('0','-2') AND round((UNIX_TIMESTAMP(SYSDATE())-UNIX_TIMESTAMP(update_date))/60) > ?  
+2013-01-04 15:16:00 DEBUG [Class:o.a.i.l.j.BaseJdbcLogger->Thread:pool-1-thread-1] ● SQL参数: 5(Integer) 

@@ -1,0 +1,8 @@
+2018-08-08 09:05:07 ERROR [Class:a.f.c.r.JedisUtil->Thread:main] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:05:07 WARN [Class:a.f.c.r.JedisUtil->Thread:main] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:06:05 ERROR [Class:a.f.c.r.JedisUtil->Thread:main] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:06:05 WARN [Class:a.f.c.r.JedisUtil->Thread:main] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:06:40 ERROR [Class:a.f.c.r.JedisUtil->Thread:main] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:06:40 WARN [Class:a.f.c.r.JedisUtil->Thread:main] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:07:01 ERROR [Class:a.f.c.r.JedisUtil->Thread:pool-1-thread-1] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2018-08-08 09:07:01 WARN [Class:a.f.c.r.JedisUtil->Thread:pool-1-thread-1] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 

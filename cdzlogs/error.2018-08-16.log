@@ -1,0 +1,5 @@
+2018-08-16 09:30:21 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-16 21:41:04 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-25] 没有获取到Key为[banktype]的数据字典。 
+2018-08-16 21:42:11 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-24] 没有获取到Key为[banktype]的数据字典。 
+2018-08-16 21:43:41 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-26] 没有获取到Key为[banktype]的数据字典。 
+2018-08-16 23:09:48 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-38] 没有获取到Key为[banktype]的数据字典。 

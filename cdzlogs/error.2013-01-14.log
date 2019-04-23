@@ -1,0 +1,3 @@
+2013-01-14 09:31:23 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp507084503-25] 没有获取到Key为[banktype]的数据字典。 
+2013-01-14 09:32:32 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp507084503-23] 没有获取到Key为[banktype]的数据字典。 
+2013-01-14 09:37:13 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp507084503-26] 没有获取到Key为[banktype]的数据字典。 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--用户信息[basic_user]SQL语句 -->
+<mapper namespace="Basic_user">
+	<select id="listBasic_usersPage" parameterType="Dto" resultType="Dto">
+		SELECT
+		<include refid="dao.Basic_userDao.column" />
+		FROM basic_user
+		<where>
+ 		</where>
+	</select>
+	
+	<select id="listHandler" parameterType="Dto" resultType="Dto">
+		SELECT
+		account AS value, account AS display
+		
+		FROM basic_user
+		<where>
+		    user_type=4
+		</where>
+		
+ 		</select>
+ 		<select id="listHandler1" parameterType="Dto" resultType="Dto">
+		SELECT
+		 account AS value, CONCAT(name,account) AS display
+		
+		FROM basic_user
+		<where>
+		    user_type=4
+		</where>
+		
+ 		</select>
+ 		<select id="listHandler2" parameterType="Dto" resultType="Dto">
+		SELECT
+		account AS value, account AS display
+		
+		FROM basic_user
+		<where>
+		    user_type=4
+		    AND name = #{name}
+		</where>
+		
+ 		</select>
+</mapper>

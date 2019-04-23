@@ -1,0 +1,9 @@
+2012-01-01 18:24:47 ERROR [Class:a.f.c.r.JedisUtil->Thread:main] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:24:47 WARN [Class:a.f.c.r.JedisUtil->Thread:main] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:24:54 ERROR [Class:a.f.c.r.JedisUtil->Thread:MultiServerThread] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:24:54 WARN [Class:a.f.c.r.JedisUtil->Thread:MultiServerThread] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:24:55 ERROR [Class:a.f.c.r.JedisUtil->Thread:MultiServerThread] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:24:55 WARN [Class:a.f.c.r.JedisUtil->Thread:MultiServerThread] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:25:01 ERROR [Class:a.f.c.r.JedisUtil->Thread:pool-1-thread-1] 获取Redis客户端连接失败。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 18:25:01 WARN [Class:a.f.c.r.JedisUtil->Thread:pool-1-thread-1] 没有获取到Redis客户端连接。we9fh34v9we4hfg35hbqwif234lhtzxmcsdh654321 
+2012-01-01 20:13:40 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp507084503-23] 没有获取到Key为[banktype]的数据字典。 

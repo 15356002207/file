@@ -1,0 +1,400 @@
+2018-08-07 10:19:10 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-25] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:19:53 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-28] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:20:50 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:22:17 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:23:14 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:23:37 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:24:02 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-28] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:24:29 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-28] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:24:56 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-24] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:25:55 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:26:20 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-24] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:26:42 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-26] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:27:31 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-26] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 10:28:36 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:09:24 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:10:43 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-25] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:11:07 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:12:21 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:15:42 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:16:34 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-28] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:17:49 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-27] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:18:18 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-25] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:19:57 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:21:34 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-23] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:23:20 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-35] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:28:25 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-28] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 13:31:21 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-24] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 14:44:50 ERROR [Class:a.f.c.c.CacheMasterDataService->Thread:qtp540642172-28] 没有获取到Key为[banktype]的数据字典。 
+2018-08-07 22:50:09 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:50:09 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@32eae6f2: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:50:13 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:51:40 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:51:41 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@29050de5: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:51:41 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:51:56 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:51:56 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:51:57 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:52:21 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:52:21 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:52:21 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:57:55 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:57:55 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:57:55 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:58:27 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:58:27 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:58:28 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:58:54 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:58:54 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:58:55 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 22:59:53 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:59:53 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 22:59:54 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 23:00:12 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:00:12 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@502a4156: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:00:12 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 23:02:11 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:02:11 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:02:11 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 23:03:08 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:03:08 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@30135202: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:03:08 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 
+2018-08-07 23:04:21 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED SelectChannelConnector@0.0.0.0:9090: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:04:21 WARN [Class:o.e.j.u.c.AbstractLifeCycle->Thread:main] FAILED org.eclipse.jetty.server.Server@7b61bf11: java.net.BindException: Address already in use: bind 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_172]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_172]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_172]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-all-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at aos.framework.core.server.AOSServer.start(AOSServer.java:82) [classes/:na]
+	at start.CDZStart.main(CDZStart.java:22) [classes/:na]
+2018-08-07 23:04:22 ERROR [Class:a.f.c.s.AOSServer->Thread:main] 项目启动失败 

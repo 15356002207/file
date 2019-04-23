@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--设备[device]SQL语句 -->
+<mapper namespace="Device">
+	<select id="listDevicesPage" parameterType="Dto" resultType="Dto">
+		SELECT
+		<include refid="dao.DeviceDao.column" />
+		FROM device
+		<where>
+		 <if test="phone != null and phone != ''">
+				      AND phone like '%${phone}%'  <!-- 地址 --><!-- like和=，，，有区别，但对于手机号而言位数一样，所以可以使用 -->
+				</if>
+ 		</where>
+ 		
+
+	</select>
+	
+	<select id="listDevicesPage3" parameterType="Dto" resultType="Dto">
+		SELECT
+		
+		<include refid="dao.DeviceDao.column" />
+		FROM device
+		<where>
+		<if test="phone != null and phone != ''">
+				      AND phone = #{phone} <!-- 地址 -->
+				  
+				</if>
+		<if test="device_id != null and device_id != ''">
+				      AND device_id = #{device_id} <!-- 地址 -->
+				  
+				</if>		
+				
+ 		</where>
+ 		</select>
+</mapper>
