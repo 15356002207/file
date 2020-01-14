@@ -17,16 +17,16 @@ import com.gexin.rp.sdk.template.style.Style0;
 
 public class Push{
 	// 采用"Java SDK 快速入门"， "第二步 获取访问凭证 "中获得的应用配置，用户可以自行替换
-	private static String appId = "feD8QIf2zT60AVmLLDruf4";
-	private static String appKey = "XezI8cUkHn5oguIW9NSmT8";
-	private static String masterSecret = "tWxdN7DDvo5CDYjy6g7eL";
+	private static String appId = "";
+	private static String appKey = "";
+	private static String masterSecret = "";
 
-	static String CID = "54a82355b8988f1f3622361a7d234d6d";
-	static String CID1 = "54a82355b8988f1f3622361a7d234d6d";
+	static String CID = "";
+	static String CID1 = "";
 	static String CID2 = "";
 	// 别名推送方式
-	static String Alias = "18392888103";
-	static String host = "http://sdk.open.api.igexin.com/apiex.htm";
+	static String Alias = "";
+	static String host = "";
 
 
 	public static void pushToSingle() throws Exception {
